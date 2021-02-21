@@ -323,7 +323,9 @@ body{
 
 
 
-
+.footer__gallery{
+    width: 25%;
+}
 .footer__gallery img {
 
     max-width: 100px;
@@ -332,6 +334,13 @@ body{
     flex-wrap: wrap;
 }
 
+.footer__img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-gallery{
+    width: calc(100%/3);
 
+}
 
 
